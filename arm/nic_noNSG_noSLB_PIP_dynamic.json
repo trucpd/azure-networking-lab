@@ -25,7 +25,7 @@
     },
     "variables": {
         "ipConfigName": "[concat(parameters('nicName'),'-ipConfig')]",
-		"apiVersion": "2016-03-30"      
+		"apiVersion": "2023-07-01"      
     },
     "resources": [
         {
