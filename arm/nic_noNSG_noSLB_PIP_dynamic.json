@@ -38,7 +38,7 @@
                 "name": "Standard"
             },
             "properties": {
-                "publicIPAllocationMethod": "Dynamic",
+                "publicIPAllocationMethod": "Static",
                 "idleTimeoutInMinutes": 4
             },
             "resources": [],
