@@ -38,6 +38,9 @@
                 "publicIPAllocationMethod": "Dynamic",
                 "idleTimeoutInMinutes": 4
             },
+			"sku": {
+   		    "name": "Standard"
+			},
             "resources": [],
             "dependsOn": []
         },
