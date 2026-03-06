@@ -77,21 +77,21 @@
                 "product": "cisco-asav",
                 "publisher": "cisco",
                 "sku": "asav-azure-byol",
-                "vmSize": "Standard_D3_v2"
+                "vmSize": "Standard_D2s_v3"
             },
             "csr": {
                 "planName": "csr-azure-byol",
                 "product": "cisco-csr-1000v",
                 "publisher": "cisco",
                 "sku": "csr-azure-byol",
-                "vmSize": "Standard_D3_v2"
+                "vmSize": "Standard_D2s_v3"
             },
             "ubuntu": {
                 "planName": "Ubuntu Server 16.04 LTS",
                 "product": "0001-com-ubuntu-server-jammy",
                 "publisher": "Canonical",
                 "sku": "22_04-lts-gen2",
-                "vmSize": "Standard_D2_v2"
+                "vmSize": "Standard_D2_v3"
             }
         },
         "settings": "[variables('settingsTable')[parameters('vmType')]]",
