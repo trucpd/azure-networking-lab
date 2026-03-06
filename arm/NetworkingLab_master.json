@@ -276,8 +276,11 @@
             "type": "Microsoft.Network/publicIPAddresses",
             "name": "vnet4gwPip",
             "location": "[resourceGroup().location]",
+            "sku": {
+                "name": "Standard"
+            },
             "properties": {
-                "publicIPAllocationMethod": "Dynamic"
+                "publicIPAllocationMethod": "Static"
             }
         },
         {
@@ -286,8 +289,11 @@
             "type": "Microsoft.Network/publicIPAddresses",
             "name": "vnet5gwPip",
             "location": "[resourceGroup().location]",
+            "sku": {
+                "name": "Standard"
+            },
             "properties": {
-                "publicIPAllocationMethod": "Dynamic"
+                "publicIPAllocationMethod": "Static"
             }
         },
         {
